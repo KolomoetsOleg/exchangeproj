@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	url = git@git.assembla.com:exchange_proj.git
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[remote "heroku"]
+	url = git@heroku.com:evening-atoll-2198.git
+	fetch = +refs/heads/*:refs/remotes/heroku/*

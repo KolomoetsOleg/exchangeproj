@@ -1,0 +1,136 @@
+ru:
+  activerecord:
+    errors:
+      models:
+        admin_user:
+          attributes:
+            email:
+              blank: "Поле не может быть пустым"
+              invalid: "Поле имеет неверный формат"
+              taken: "Такой e-mail уже существует"
+        bank:
+          attributes:
+            name:
+              blank: "Поле не может быть пустым"
+            short_name:
+              blank: "Поле не может быть пустым"
+            city_id:
+              blank: "Поле не может быть пустым"
+            actual_address:
+              blank: "Поле не может быть пустым"
+            fax:
+              not_a_number: "Поле пустое или имеет неверный формат (факс может содержать только цифры)"
+            email:
+              invalid: "Поле пустое или имеет неверный формат"
+            telephone:
+              not_a_number: "Поле пустое или имеет неверный формат (телефон может содержать только цифры)"
+            web:
+              blank: "Поле не может быть пустым"
+        currency:
+          attributes:
+            name:
+              blank: "Поле не может быть пустым"
+            short_name:
+              blank: "Поле не может быть пустым"
+        city:
+          attributes:
+            name:
+              blank: "Поле не может быть пустым"
+        exchange:
+          attributes:
+            bank_id:
+              blank: "Поле не может быть пустым"
+            currency_id:
+              blank: "Поле не может быть пустым"
+            buy:
+              blank: "Поле не может быть пустым"
+            sell:
+              blank: "Поле не может быть пустым"
+            date:
+              blank: "Поле не может быть пустым"
+  time:
+    formats:
+      long: ! '%H:%M'
+  date:
+    formats:
+      long: ! "%d-%m-%Y"
+  active_admin:
+    dashboard: "Главная"
+    dashboard_welcome:
+      welcome: "Добро пожаловать в Active Admin. Это стандартная страница управления сайтом."
+      call_to_action: "Чтобы добавить сюда что-нибудь загляните в 'app/admin/dashboards.rb'"
+    view: "Открыть"
+    edit: "Изменить"
+    delete: "Удалить"
+    delete_confirmation: "Вы уверены, что хотите удалить это?"
+    new_model: "Создать %{model}"
+    create_model: "Создать %{model}"
+    edit_model: "Изменить %{model}"
+    update_model: "Изменить %{model}"
+    delete_model: "Удалить %{model}"
+    details: "%{model} подробнее"
+    cancel: "Отмена"
+    empty: "Пусто"
+    previous: "Пред."
+    next: "След."
+    download: "Загрузка:"
+    has_many_new: "Добавить %{model}"
+    has_many_delete: "Удалить"
+    filter: "Фильтровать"
+    clear_filters: "Очистить"
+    search_field: "Искать по %{field}"
+    equal_to: "="
+    greater_than: "больше"
+    less_than: "меньше"
+    main_content: "Создайте %{model}#main_content для отображения содержимого."
+    logout: "Выйти"
+    powered_by: "Powered by %{active_admin} %{version}"
+    sidebars:
+      filters: "Фильтры"
+    pagination:
+      empty: "%{model} не найдено"
+      one: "Результат: <b>1</b> %{model}"
+      one_page: "Результат: <b>%{n}</b> %{model}"
+      multiple: "Результат: %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b> из <b>%{total}</b>"
+      entry:
+        one: "запись"
+        other: "записей"
+    any: "Любой"
+    blank_slate:
+      content: "Пока нет %{resource_name}."
+      link: "Создать"
+    batch_actions:
+      button_label: "Групповые операции"
+      delete_confirmation: "Вы уверены, что хотите удалить %{plural_model}? Вы не сможете это отменить."
+      succesfully_destroyed:
+        one: "Успешно удалено: 1 %{model}"
+        other: "Успешно удалено: %{count} %{plural_model}"
+      selection_toggle_explanation: "(Отметить всё / Снять выделение)"
+      link: "Создать"
+      action_label: "%{title} выбранное"
+      labels:
+        destroy: "Удалить"
+    comments:
+      body: "Текст"
+      author: "Автор"
+      title: "Комментарий"
+      add: "Добавить Комментарий"
+      resource: "Ресурс"
+      no_comments_yet: "Пока нет комментариев."
+      title_content: "Комментарии (%{count})"
+      errors:
+        empty_text: "Комментарий не сохранен, текст не должен быть пустым."
+    devise:
+      login:
+        title: "Войти"
+        remember_me: "Запомнить меня"
+        submit: "Войти"
+      reset_password:
+        title: "Забыли пароль?"
+        submit: "Сбросить пароль"
+      change_password:
+        title: "Изменение пароля"
+        submit: "Изменение пароля"
+      links:
+        sign_in: "Войти"
+        forgot_your_password: "Забыли пароль?"
